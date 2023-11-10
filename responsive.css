@@ -1,0 +1,48 @@
+@media (max-width: 1023px) {
+  .content__about {
+    padding: 40px 10%;
+  }
+
+	.row .col {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+/*tablet*/
+@media(min-width: 740px) and (max-width:1023px){
+}
+
+
+/*mobile*/
+@media(max-width:740px){
+  .container {
+    padding-left: 100px;
+  }
+  
+  .sidebar {
+    width: 100px;
+  }
+
+  .content {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+
+  .content__about {
+    padding: 40px 5%;
+  }
+
+  .content__logo {
+    margin: 0 auto;
+  }
+  .content__logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

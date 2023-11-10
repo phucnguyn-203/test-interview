@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding-left: 150px;
+  position: relative;
+  left: 0;
+  width: 100%;
+}
+
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  background-color: #191818;
+  width: 150px;
+  left: 0;
+}
+
+.sidebar .sidebar__nav ul li {
+  list-style-type: none;
+}
+
+.sidebar .sidebar__nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  border-bottom: 1px solid #5C5C5C;
+}
+
+.content {
+  text-align: center;
+  padding: 20px 60px 60px 60px;
+}
+
+.content .content__logo {
+  margin-top: 20px;
+}
+
+.content__about {
+  margin-top: 20px;
+  padding: 40px 20%;
+  background-color: #EFEFEF;
+}
+
+
+.content__about .content__about-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.row {
+  overflow: auto;
+  margin: 24px auto;
+}
+.row .col {
+  float: left;
+  width: 31.3333%;
+  margin-right: 2.99%;
+}
+.row .col:last-child {
+  float: right;
+  margin-right: 0;
+}
+.row .col img {
+  float: left;
+  margin-right: 8px;
+}
+.row .col h2 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.row .col p {
+  text-align: justify;
+}
+
+
+.footer {
+  border-top: 1px solid #E6E6E6;
+  color: #3E3E3E;
+  padding: 1em 3em;
+}
